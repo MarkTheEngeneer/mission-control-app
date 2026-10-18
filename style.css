@@ -1,0 +1,4 @@
+:root{--bg:#fff;--fg:#1d1d1f;--mut:#555}
+@media (prefers-color-scheme:dark){:root{--bg:#161618;--fg:#ececec;--mut:#aaa}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,sans-serif;max-width:42rem;margin:0 auto;padding:2rem 1rem}
+p.mut{color:var(--mut)} a{color:inherit}
